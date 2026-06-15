@@ -1,0 +1,9 @@
+# One substring or fnmatch pattern per line.
+# Used by both fixed visual and jointed URDF builders.
+*HORN_INSERT*
+*SCREW*
+*CAP*
+2XC-430_1_DC11_A01_IDLER_REF_ASM_1_DC11_A01_IDLER_REF_1.stl
+2XC-430_1_DC11_A01_IDLER_REF_ASM_2_DC11_A01_IDLER_REF_1.stl
+XC-430_idle_1_M_DC11_A01_IDLER_ASM_1_M_DC11_A01_IDLER_1.stl
+XC-430_idle_2_M_DC11_A01_IDLER_ASM_1_M_DC11_A01_IDLER_1.stl

@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<robot name="robot_arm_fusion">
+  <material name="base_gray"><color rgba="0.45 0.45 0.45 1"/></material>
+  <material name="yaw_blue"><color rgba="0.25 0.35 0.85 1"/></material>
+  <material name="shoulder_green"><color rgba="0.2 0.65 0.35 1"/></material>
+  <material name="upper_orange"><color rgba="0.95 0.55 0.15 1"/></material>
+  <material name="forearm_purple"><color rgba="0.55 0.3 0.8 1"/></material>
+  <material name="elbow_red"><color rgba="0.85 0.25 0.2 1"/></material>
+  <material name="wrist_cyan"><color rgba="0.1 0.7 0.8 1"/></material>
+  <material name="tool_yellow"><color rgba="0.9 0.8 0.1 1"/></material>
+
+  <link name="linkA">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="0.00015 -5e-05 0.022" rpy="-1.57772181e-30 2.95249936e-15 -3.14159265"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_1_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="base_gray"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.075 -0.0413 0" rpy="0 -0 0"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_plate_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="base_gray"/>
+    </visual>
+  </link>
+
+  <link name="linkB">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="-1.21137049e-17 7.14149758e-18 0.0735" rpy="1.57079633 6.78233664e-17 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_2_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="yaw_blue"/>
+    </visual>
+    <visual>
+      <origin xyz="5.4378151e-34 8.78271367e-36 0.033" rpy="-3.14159265 -6.12243551e-17 -3.14159265"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustA_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="yaw_blue"/>
+    </visual>
+    <visual>
+      <origin xyz="1.17310153e-17 3.15459156e-18 0.0525" rpy="-3.14159265 -4.08083249e-16 -3.14159265"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="yaw_blue"/>
+    </visual>
+  </link>
+
+  <link name="linkC">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="1.25281729e-16 -2.62012634e-16 0.1067" rpy="1.57079633 1.66533454e-16 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_3_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="shoulder_green"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0205 -0.012 0.02795" rpy="0 -1.57079633 -1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_part1_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="shoulder_green"/>
+    </visual>
+    <visual>
+      <origin xyz="9.96980479e-17 1.30429521e-17 -5e-05" rpy="1.57079633 4.08083249e-16 1.17961196e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="shoulder_green"/>
+    </visual>
+    <visual>
+      <origin xyz="1.29896094e-16 -2.22044605e-16 0.0857" rpy="3.14159265 4.07956501e-16 -7.97372366e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="shoulder_green"/>
+    </visual>
+  </link>
+
+  <link name="linkD">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="1.01307851e-17 -1.33226763e-16 0.052" rpy="3.27181367e-16 2.77555756e-17 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_4_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="upper_orange"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0205 -0.012 0.028" rpy="-5.55111512e-17 3.35102683e-16 -7.87663769e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_hand_v2_2.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="upper_orange"/>
+    </visual>
+    <visual>
+      <origin xyz="1e-05 0.00025 0.069" rpy="3.27181367e-16 1.84889275e-31 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustD_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="upper_orange"/>
+    </visual>
+    <visual>
+      <origin xyz="-2.42904402e-17 -2.66453526e-16 2.69229083e-15" rpy="1.57079633 4.08601719e-16 -7.87663769e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="upper_orange"/>
+    </visual>
+  </link>
+
+  <link name="linkE">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="2.29501218e-17 -5.55111512e-17 0.069" rpy="1.57079633 2.47024623e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_B_DUMMY2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="4.4408921e-18 -7.54951657e-17 0.069" rpy="1.57079633 2.49800181e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_F_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="1.81780483e-17 -8.21565038e-17 0.069" rpy="1.57079633 2.47024623e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_M_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="0.0155 -1.77635684e-16 0.069" rpy="0 -1.57079633 -1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="3.73034936e-16 8.8817842e-18 0.0285" rpy="3.14159265 9.35362898e-15 2.22044605e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustB_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="5.59552404e-16 7.10542736e-17 0.048" rpy="3.14159265 9.35362898e-15 2.22044605e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_2.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="forearm_purple"/>
+    </visual>
+  </link>
+
+  <link name="linkF">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="-1.33573708e-17 8.8817842e-18 0.052" rpy="3.53213218e-16 2.41473508e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_B_DUMMY2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="elbow_red"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.04100956e-18 -1.08107967e-17 0.052" rpy="3.53213218e-16 2.41473508e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_F_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="elbow_red"/>
+    </visual>
+    <visual>
+      <origin xyz="-1.11022302e-18 1.20736754e-17 0.052" rpy="3.53213218e-16 2.47024623e-15 1.57079633"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_M_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="elbow_red"/>
+    </visual>
+    <visual>
+      <origin xyz="-0.0205 -0.012 0.028" rpy="-2.35922393e-15 1.90763088e-16 -6.81142969e-16"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_hand_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="elbow_red"/>
+    </visual>
+    <visual>
+      <origin xyz="2.88657986e-17 -1.59872116e-16 4.5519144e-15" rpy="1.57079633 -4.09199766e-16 3.14159265"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_3.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="elbow_red"/>
+    </visual>
+  </link>
+
+  <link name="linkG">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="0.1"/>
+      <inertia ixx="0.0001" ixy="0" ixz="0" iyy="0.0001" iyz="0" izz="0.0001"/>
+    </inertial>
+    <visual>
+      <origin xyz="2.30371278e-17 3.63598041e-17 4.99600361e-15" rpy="1.57079633 -3.53213218e-16 3.14159265"/>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="wrist_cyan"/>
+    </visual>
+  </link>
+
+  <joint name="base_yaw_joint" type="revolute">
+    <parent link="linkA"/>
+    <child link="linkB"/>
+    <origin xyz="0 0 0.022" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.14159265" upper="3.14159265" effort="2.0" velocity="1.0"/>
+  </joint>
+
+  <joint name="shoulder_pitch_joint" type="revolute">
+    <parent link="linkB"/>
+    <child link="linkC"/>
+    <origin xyz="0 0 0.0735" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57079633" upper="1.57079633" effort="2.0" velocity="1.0"/>
+  </joint>
+
+  <joint name="upper_arm_roll_joint" type="revolute">
+    <parent link="linkC"/>
+    <child link="linkD"/>
+    <origin xyz="0 0 0.1067" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57079633" upper="1.57079633" effort="2.0" velocity="1.0"/>
+  </joint>
+
+  <joint name="elbow_pitch_joint" type="revolute">
+    <parent link="linkD"/>
+    <child link="linkE"/>
+    <origin xyz="0 0 0.052" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57079633" upper="1.57079633" effort="2.0" velocity="1.0"/>
+  </joint>
+
+  <joint name="elbow_roll_joint" type="revolute">
+    <parent link="linkE"/>
+    <child link="linkF"/>
+    <origin xyz="0 0 0.069" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="-1.57079633" upper="1.57079633" effort="2.0" velocity="1.0"/>
+  </joint>
+
+  <joint name="wrist_pitch_joint" type="revolute">
+    <parent link="linkF"/>
+    <child link="linkG"/>
+    <origin xyz="0 0 0.0675" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-1.57079633" upper="1.57079633" effort="2.0" velocity="1.0"/>
+  </joint>
+
+</robot>

@@ -1,0 +1,13 @@
+id,is_root,friendly_name,display_name,relative_path,content_type,root_file_name,description,created_at
+863004,,fr12_h101_k,fr12_h101_k,43d451a1-b68a-460e-80de-ec486314d970.zip.f3d,zip,fr12_h101_k.stp,fr12_h101_k.stp からインポート済み,2026-06-06T03:25:33+0000
+863000,,fr12_s102_k,fr12_s102_k,a5970fa4-8e88-46f0-bf9a-07d7b154e208.zip.f3d,zip,fr12_s102_k.stp,fr12_s102_k.stp からインポート済み,2026-06-06T03:42:21+0000
+863003,,arm_part1,arm_part1,5717bfef-9a5b-4853-904e-d138bfb05230.f3d,f3d,arm_part1.f3d,ユーザが保存したバージョン,2026-05-16T21:47:07+0000
+863001,,arm_hand_v2,arm_hand_v2,ce51df2b-e6fc-4624-918c-c9696bc77d67.f3d,f3d,arm_hand_v2.f3d,ユーザが保存したバージョン,2026-05-21T11:34:44+0000
+863007,,arm_thrustB,arm_thrustB,3b2e2b5f-423f-4a2d-959d-b5eb51f1e8fb.f3d,f3d,arm_thrustB.f3d,ユーザが保存したバージョン,2026-05-18T15:56:13+0000
+863008,,arm_thrustA,arm_thrustA,5f6ab101-cd6e-40bf-9284-99c555d6d14d.f3d,f3d,arm_thrustA.f3d,ユーザが保存したバージョン,2026-05-21T07:10:39+0000
+863002,,2XC-430,2XC-430,437ef652-f208-4015-872b-0bc927f0d22f.zip.f3d,zip,2XC-430.stp,2XC-430.stp からインポート済み,2026-06-06T04:00:06+0000
+863005,,arm_thrustC,arm_thrustC,229d907d-bee8-423c-b9df-8a4b31d83d24.f3d,f3d,arm_thrustC.f3d,ユーザが保存したバージョン,2026-05-18T16:02:15+0000
+862997,yes,robotarm_assembly,robotarm_assembly,e0587b21-57b9-4781-8523-c11f2231e22e.f3d,f3d,robotarm_assembly.f3d,ユーザが保存したバージョン,2026-06-06T12:01:26+0000
+862998,,"XM,H-430_idler","XM,H-430_idler",96c9729c-f9a2-4c37-8994-bbbac1b74491.zip.f3d,zip,"XM,H-430_idler.stp","XM,H-430_idler.stp からインポート済み",2026-06-06T03:25:34+0000
+863006,,XC-430_idle,XC-430_idle,cd978e81-0689-43ce-ad90-909ce387cae3.zip.f3d,zip,XC-430_idle.stp,XC-430_idle.stp からインポート済み,2026-06-06T03:25:36+0000
+862999,,arm_plate_v2,arm_plate_v2,7ad9df1d-be35-4644-bc9c-72c505da536f.f3d,f3d,arm_plate_v2.f3d,ユーザが保存したバージョン,2026-05-20T09:46:08+0000

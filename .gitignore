@@ -1,0 +1,10 @@
+.DS_Store
+__MACOSX/
+__pycache__/
+*.py[cod]
+.conda-pybullet/
+.venv/
+.venv-pybullet/
+.venv-ubuntu/
+outputs/*.png
+outputs/**/*.png

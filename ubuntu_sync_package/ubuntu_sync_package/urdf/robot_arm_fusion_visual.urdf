@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<robot name="robot_arm_fusion_visual">
+  <material name="fusion_gray"><color rgba="0.55 0.55 0.55 1"/></material>
+  <link name="world"/>
+  <link name="fusion_part_000_occ_012_XC_430_idle_1_DC11_B01_CASE_B_DUMMY2_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_B_DUMMY2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_000_occ_012_XC_430_idle_1_DC11_B01_CASE_B_DUMMY2_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_000_occ_012_XC_430_idle_1_DC11_B01_CASE_B_DUMMY2_1"/>
+    <origin xyz="2.29501218e-17 -5.55111512e-17 0.3232" rpy="1.57079633 2.47024623e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_001_occ_011_XC_430_idle_1_DC11_B01_CASE_F_DUMMY_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_F_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_001_occ_011_XC_430_idle_1_DC11_B01_CASE_F_DUMMY_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_001_occ_011_XC_430_idle_1_DC11_B01_CASE_F_DUMMY_1"/>
+    <origin xyz="4.4408921e-18 -7.54951657e-17 0.3232" rpy="1.57079633 2.49800181e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_002_occ_010_XC_430_idle_1_DC11_B01_CASE_M_DUMMY_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_DC11_B01_CASE_M_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_002_occ_010_XC_430_idle_1_DC11_B01_CASE_M_DUMMY_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_002_occ_010_XC_430_idle_1_DC11_B01_CASE_M_DUMMY_1"/>
+    <origin xyz="1.81780483e-17 -8.21565038e-17 0.3232" rpy="1.57079633 2.47024623e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_003_occ_020_XC_430_idle_1_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_1_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_003_occ_020_XC_430_idle_1_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_003_occ_020_XC_430_idle_1_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1"/>
+    <origin xyz="0.0155 -1.77635684e-16 0.3232" rpy="0 -1.57079633 -1.57079633"/>
+  </joint>
+  <link name="fusion_part_004_occ_027_XC_430_idle_2_DC11_B01_CASE_B_DUMMY2_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_B_DUMMY2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_004_occ_027_XC_430_idle_2_DC11_B01_CASE_B_DUMMY2_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_004_occ_027_XC_430_idle_2_DC11_B01_CASE_B_DUMMY2_1"/>
+    <origin xyz="-1.33573708e-17 8.8817842e-18 0.3752" rpy="3.53213218e-16 2.41473508e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_005_occ_026_XC_430_idle_2_DC11_B01_CASE_F_DUMMY_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_F_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_005_occ_026_XC_430_idle_2_DC11_B01_CASE_F_DUMMY_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_005_occ_026_XC_430_idle_2_DC11_B01_CASE_F_DUMMY_1"/>
+    <origin xyz="-1.04100956e-18 -1.08107967e-17 0.3752" rpy="3.53213218e-16 2.41473508e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_006_occ_025_XC_430_idle_2_DC11_B01_CASE_M_DUMMY_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_DC11_B01_CASE_M_DUMMY_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_006_occ_025_XC_430_idle_2_DC11_B01_CASE_M_DUMMY_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_006_occ_025_XC_430_idle_2_DC11_B01_CASE_M_DUMMY_1"/>
+    <origin xyz="-1.11022302e-18 1.20736754e-17 0.3752" rpy="3.53213218e-16 2.47024623e-15 1.57079633"/>
+  </joint>
+  <link name="fusion_part_007_occ_035_XC_430_idle_2_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XC-430_idle_2_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_007_occ_035_XC_430_idle_2_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_007_occ_035_XC_430_idle_2_M_DC11_A01_HORN_ASM_1_M_DC11_A01_HORN_1"/>
+    <origin xyz="2.30371278e-17 3.63598041e-17 0.3907" rpy="1.57079633 -3.53213218e-16 3.14159265"/>
+  </joint>
+  <link name="fusion_part_008_occ_001_XM_H_430_idler_1_DUMMY_DC12_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_1_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_008_occ_001_XM_H_430_idler_1_DUMMY_DC12_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_008_occ_001_XM_H_430_idler_1_DUMMY_DC12_1"/>
+    <origin xyz="0.00015 -5e-05 0.022" rpy="-1.57772181e-30 2.95249936e-15 -3.14159265"/>
+  </joint>
+  <link name="fusion_part_009_occ_005_XM_H_430_idler_2_DUMMY_DC12_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_2_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_009_occ_005_XM_H_430_idler_2_DUMMY_DC12_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_009_occ_005_XM_H_430_idler_2_DUMMY_DC12_1"/>
+    <origin xyz="-1.21137049e-17 7.14149758e-18 0.0955" rpy="1.57079633 6.78233664e-17 1.57079633"/>
+  </joint>
+  <link name="fusion_part_010_occ_040_XM_H_430_idler_3_DUMMY_DC12_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_3_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_010_occ_040_XM_H_430_idler_3_DUMMY_DC12_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_010_occ_040_XM_H_430_idler_3_DUMMY_DC12_1"/>
+    <origin xyz="1.25281729e-16 -2.62012634e-16 0.2022" rpy="1.57079633 1.66533454e-16 1.57079633"/>
+  </joint>
+  <link name="fusion_part_011_occ_044_XM_H_430_idler_4_DUMMY_DC12_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/XM_H-430_idler_4_DUMMY_DC12_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_011_occ_044_XM_H_430_idler_4_DUMMY_DC12_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_011_occ_044_XM_H_430_idler_4_DUMMY_DC12_1"/>
+    <origin xyz="1.01307851e-17 -1.33226763e-16 0.2542" rpy="3.27181367e-16 2.77555756e-17 1.57079633"/>
+  </joint>
+  <link name="fusion_part_012_occ_023_arm_hand_v2_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_hand_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_012_occ_023_arm_hand_v2_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_012_occ_023_arm_hand_v2_1"/>
+    <origin xyz="-0.0205 -0.012 0.3512" rpy="-2.35922393e-15 1.90763088e-16 -6.81142969e-16"/>
+  </joint>
+  <link name="fusion_part_013_occ_043_arm_hand_v2_2">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_hand_v2_2.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_013_occ_043_arm_hand_v2_2_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_013_occ_043_arm_hand_v2_2"/>
+    <origin xyz="-0.0205 -0.012 0.2302" rpy="-5.55111512e-17 3.35102683e-16 -7.87663769e-16"/>
+  </joint>
+  <link name="fusion_part_014_occ_038_arm_part1_v2_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_part1_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_014_occ_038_arm_part1_v2_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_014_occ_038_arm_part1_v2_1"/>
+    <origin xyz="-0.0205 -0.012 0.12345" rpy="0 -1.57079633 -1.57079633"/>
+  </joint>
+  <link name="fusion_part_015_occ_000_arm_plate_v2_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_plate_v2_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_015_occ_000_arm_plate_v2_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_015_occ_000_arm_plate_v2_1"/>
+    <origin xyz="-0.075 -0.0413 0" rpy="0 -0 0"/>
+  </joint>
+  <link name="fusion_part_016_occ_003_arm_thrustA_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustA_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_016_occ_003_arm_thrustA_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_016_occ_003_arm_thrustA_1"/>
+    <origin xyz="5.4378151e-34 8.78271367e-36 0.055" rpy="-3.14159265 -6.12243551e-17 -3.14159265"/>
+  </joint>
+  <link name="fusion_part_017_occ_008_arm_thrustB_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustB_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_017_occ_008_arm_thrustB_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_017_occ_008_arm_thrustB_1"/>
+    <origin xyz="3.73034936e-16 8.8817842e-18 0.2827" rpy="3.14159265 9.35362898e-15 2.22044605e-16"/>
+  </joint>
+  <link name="fusion_part_018_occ_046_arm_thrustD_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/arm_thrustD_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_018_occ_046_arm_thrustD_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_018_occ_046_arm_thrustD_1"/>
+    <origin xyz="1e-05 0.00025 0.2712" rpy="3.27181367e-16 1.84889275e-31 1.57079633"/>
+  </joint>
+  <link name="fusion_part_019_occ_007_fr12_h101_k_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_019_occ_007_fr12_h101_k_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_019_occ_007_fr12_h101_k_1"/>
+    <origin xyz="9.96980479e-17 1.30429521e-17 0.09545" rpy="1.57079633 4.08083249e-16 1.17961196e-16"/>
+  </joint>
+  <link name="fusion_part_020_occ_042_fr12_h101_k_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_020_occ_042_fr12_h101_k_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_020_occ_042_fr12_h101_k_1"/>
+    <origin xyz="-2.42904402e-17 -2.66453526e-16 0.2022" rpy="1.57079633 4.08601719e-16 -7.87663769e-16"/>
+  </joint>
+  <link name="fusion_part_021_occ_024_fr12_h101_k_3">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_h101_k_3.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_021_occ_024_fr12_h101_k_3_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_021_occ_024_fr12_h101_k_3"/>
+    <origin xyz="2.88657986e-17 -1.59872116e-16 0.3232" rpy="1.57079633 -4.09199766e-16 3.14159265"/>
+  </joint>
+  <link name="fusion_part_022_occ_004_fr12_s102_k_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_022_occ_004_fr12_s102_k_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_022_occ_004_fr12_s102_k_1"/>
+    <origin xyz="1.17310153e-17 3.15459156e-18 0.0745" rpy="-3.14159265 -4.08083249e-16 -3.14159265"/>
+  </joint>
+  <link name="fusion_part_023_occ_039_fr12_s102_k_1">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_1.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_023_occ_039_fr12_s102_k_1_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_023_occ_039_fr12_s102_k_1"/>
+    <origin xyz="1.29896094e-16 -2.22044605e-16 0.1812" rpy="3.14159265 4.07956501e-16 -7.97372366e-16"/>
+  </joint>
+  <link name="fusion_part_024_occ_009_fr12_s102_k_2">
+    <visual>
+      <geometry><mesh filename="../cad/exports/fusion_meshes/fr12_s102_k_2.stl" scale="0.001 0.001 0.001"/></geometry>
+      <material name="fusion_gray"/>
+    </visual>
+  </link>
+  <joint name="fusion_part_024_occ_009_fr12_s102_k_2_fixed" type="fixed">
+    <parent link="world"/>
+    <child link="fusion_part_024_occ_009_fr12_s102_k_2"/>
+    <origin xyz="5.59552404e-16 7.10542736e-17 0.3022" rpy="3.14159265 9.35362898e-15 2.22044605e-16"/>
+  </joint>
+</robot>

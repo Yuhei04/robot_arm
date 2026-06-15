@@ -1,0 +1,13 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "robot_arm",
+  "description": {
+    "": "Export visible Fusion occurrences to STL and CSV tables for URDF generation."
+  },
+  "supportedOS": "mac|windows",
+  "editEnabled": true,
+  "runOnStartup": false,
+  "id": "fusion360_export_urdf_data",
+  "version": "1.0.0"
+}

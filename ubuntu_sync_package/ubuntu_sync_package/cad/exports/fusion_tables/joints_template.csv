@@ -1,0 +1,7 @@
+joint_name,parent_link,child_link,motor_id,axis_x,axis_y,axis_z,origin_x_mm,origin_y_mm,origin_z_mm,sign
+base_yaw_joint,linkA,linkB,1,0,0,1,0,0,22.0,1
+shoulder_pitch_joint,linkB,linkC,2,1,0,0,0,0,73.5,1
+upper_arm_roll_joint,linkC,linkD,3,1,0,0,0,0,106.7,-1
+elbow_pitch_joint,linkD,linkE,4,0,0,1,0,0,52.0,-1
+elbow_roll_joint,linkE,linkF,5,1,0,0,0,0,69.0,-1
+wrist_pitch_joint,linkF,linkG,6,0,0,1,0,0,67.5,1

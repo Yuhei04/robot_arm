@@ -1,0 +1,8 @@
+task mode: create
+primary deck-profile: engineering-platform
+secondary gates: visual media placeholder, research meeting readability
+required proof objects: motivation map, video placeholder, end-effector schematic, issue summary
+source/asset requirements: no source media found in workspace; slide 2 and slide 3 include editable replacement frames
+brand authenticity constraints: no external logos or unofficial marks
+profile-specific QA gates: diagrams must be technically labeled, text must remain readable at presentation distance
+known missing inputs: actual robot arm video, actual end-effector photo

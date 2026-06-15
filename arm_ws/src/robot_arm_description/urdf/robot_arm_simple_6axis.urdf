@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<robot name="robot_arm_simple_6axis">
+  <!--
+    Simple visualization model for the current forward-kinematics step.
+
+    Units: meters, radians.
+    Coordinate frame:
+      X: forward from the base
+      Y: left
+      Z: up
+
+    Measured dimensions:
+      L0 = 0.106 m  base frame to shoulder pitch axis
+      L1 = 0.111 m  shoulder pitch axis to elbow pitch axis
+      L2 = 0.070 m  elbow pitch axis to wrist reference point
+      L3 = 0.080 m  wrist reference point to tool tip, provisional
+
+    Zero posture:
+      shoulder-to-elbow link points along +Z
+      elbow-to-wrist link points along +X
+
+    Motor angle mapping used in tools/fk_3axis.py:
+      base_yaw      = +ID1
+      shoulder_pitch = +ID2
+      upper_arm_roll = -ID6
+      elbow_pitch    = -ID3
+      elbow_roll     = -ID4
+      wrist_pitch    = +ID5
+  -->
+
+  <material name="base_gray">
+    <color rgba="0.35 0.35 0.35 1.0"/>
+  </material>
+  <material name="upper_arm_blue">
+    <color rgba="0.1 0.35 0.9 1.0"/>
+  </material>
+  <material name="forearm_green">
+    <color rgba="0.1 0.65 0.25 1.0"/>
+  </material>
+  <material name="tool_orange">
+    <color rgba="1.0 0.45 0.05 1.0"/>
+  </material>
+  <material name="roll_purple">
+    <color rgba="0.55 0.15 0.75 1.0"/>
+  </material>
+  <material name="wrist_yellow">
+    <color rgba="0.95 0.80 0.10 1.0"/>
+  </material>
+  <material name="joint_black">
+    <color rgba="0.03 0.03 0.03 1.0"/>
+  </material>
+
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.02" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.055" length="0.04"/>
+      </geometry>
+      <material name="base_gray"/>
+    </visual>
+  </link>
+
+  <joint name="base_yaw_joint" type="revolute">
+    <parent link="base_link"/>
+    <child link="base_yaw_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="base_yaw_link">
+    <visual>
+      <origin xyz="0 0 0.053" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.025" length="0.106"/>
+      </geometry>
+      <material name="base_gray"/>
+    </visual>
+  </link>
+
+  <joint name="shoulder_pitch_joint" type="revolute">
+    <parent link="base_yaw_link"/>
+    <child link="shoulder_pitch_link"/>
+    <origin xyz="0 0 0.106" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="shoulder_pitch_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.018"/>
+      </geometry>
+      <material name="joint_black"/>
+    </visual>
+  </link>
+
+  <joint name="upper_arm_roll_joint" type="revolute">
+    <parent link="shoulder_pitch_link"/>
+    <child link="upper_arm_link"/>
+    <origin xyz="0 0 0.018" rpy="0 0 0"/>
+    <axis xyz="0 0 -1"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="upper_arm_link">
+    <visual>
+      <origin xyz="0 0 0.0465" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="0.012" length="0.093"/>
+      </geometry>
+      <material name="upper_arm_blue"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.018"/>
+      </geometry>
+      <material name="joint_black"/>
+    </visual>
+  </link>
+
+  <joint name="elbow_pitch_joint" type="revolute">
+    <parent link="upper_arm_link"/>
+    <child link="forearm_link"/>
+    <origin xyz="0 0 0.093" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="forearm_link">
+    <visual>
+      <origin xyz="0.035 0 0" rpy="0 1.570796 0"/>
+      <geometry>
+        <cylinder radius="0.010" length="0.070"/>
+      </geometry>
+      <material name="forearm_green"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.016"/>
+      </geometry>
+      <material name="joint_black"/>
+    </visual>
+  </link>
+
+  <joint name="elbow_roll_joint" type="revolute">
+    <parent link="forearm_link"/>
+    <child link="elbow_roll_link"/>
+    <origin xyz="0.070 0 0" rpy="0 0 0"/>
+    <axis xyz="-1 0 0"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="elbow_roll_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.014"/>
+      </geometry>
+      <material name="joint_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0.025 0 0" rpy="0 1.570796 0"/>
+      <geometry>
+        <cylinder radius="0.007" length="0.050"/>
+      </geometry>
+      <material name="roll_purple"/>
+    </visual>
+    <visual>
+      <origin xyz="0 0.025 0" rpy="1.570796 0 0"/>
+      <geometry>
+        <cylinder radius="0.004" length="0.050"/>
+      </geometry>
+      <material name="tool_orange"/>
+    </visual>
+  </link>
+
+  <joint name="wrist_pitch_joint" type="revolute">
+    <parent link="elbow_roll_link"/>
+    <child link="wrist_pitch_link"/>
+    <origin xyz="0.030 0 0" rpy="0 0 0"/>
+    <axis xyz="0 1 0"/>
+    <limit lower="-0.785398" upper="0.785398" effort="5" velocity="0.5"/>
+  </joint>
+
+  <link name="wrist_pitch_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.012"/>
+      </geometry>
+      <material name="joint_black"/>
+    </visual>
+    <visual>
+      <origin xyz="0.015 0 0" rpy="0 1.570796 0"/>
+      <geometry>
+        <cylinder radius="0.006" length="0.030"/>
+      </geometry>
+      <material name="wrist_yellow"/>
+    </visual>
+  </link>
+
+  <joint name="tool_tip_fixed_joint" type="fixed">
+    <parent link="wrist_pitch_link"/>
+    <child link="tool_tip_link"/>
+    <origin xyz="0.050 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="tool_tip_link">
+    <visual>
+      <origin xyz="-0.025 0 0" rpy="0 1.570796 0"/>
+      <geometry>
+        <cylinder radius="0.005" length="0.050"/>
+      </geometry>
+      <material name="tool_orange"/>
+    </visual>
+  </link>
+</robot>

@@ -1,0 +1,924 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/h8n5n9",
+    "id": "h8n5n9",
+    "slide": 3,
+    "layoutId": "3c54f52e-94fa-441d-bed3-20c50c0048cb",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "ba289268-51e3-43e5-9abb-9bdea332362c",
+    "masterLayoutName": "Master",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Hiragino Sans",
+      "Menlo"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "3c54f52e-94fa-441d-bed3-20c50c0048cb",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "ba289268-51e3-43e5-9abb-9bdea332362c",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "ba289268-51e3-43e5-9abb-9bdea332362c",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/y90je9cv",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F6F7F4",
+      "lineColor": "#F6F7F4",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5wjudg7a",
+      "id": "2",
+      "bbox": [
+        54,
+        38,
+        54,
+        28
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "fontSize": 15,
+        "typeface": "Menlo",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 15,
+              "typeface": "Menlo",
+              "color": "#26A269",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gbq1oryt",
+      "id": "3",
+      "bbox": [
+        112,
+        32,
+        760,
+        44
+      ],
+      "geometry": "rect",
+      "text": "手先: 軽量な2指グリッパから始める",
+      "textPreview": "手先: 軽量な2指グリッパから始める",
+      "resolvedFontSize": 30,
+      "resolvedTextStyle": {
+        "fontSize": 30,
+        "typeface": "Hiragino Sans",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "手先: 軽量な2指グリッパから始める"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "手先: 軽量な2指グリッパから始める",
+          "runs": [
+            {
+              "index": 1,
+              "text": "手先: 軽量な2指グリッパから始める",
+              "fontSize": 30,
+              "typeface": "Hiragino Sans",
+              "color": "#17202A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n29gr2p8",
+      "id": "4",
+      "bbox": [
+        114,
+        77,
+        760,
+        28
+      ],
+      "geometry": "rect",
+      "text": "可搬重量よりも、先端重量を下げて肩・肘の負担を抑える",
+      "textPreview": "可搬重量よりも、先端重量を下げて肩・肘の負担を抑える",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Hiragino Sans",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "可搬重量よりも、先端重量を下げて肩・肘の負担を抑える"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "可搬重量よりも、先端重量を下げて肩・肘の負担を抑える",
+          "runs": [
+            {
+              "index": 1,
+              "text": "可搬重量よりも、先端重量を下げて肩・肘の負担を抑える",
+              "fontSize": 14,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yhgn29gr",
+      "id": "5",
+      "bbox": [
+        54,
+        110,
+        1172,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#D9DED8",
+      "lineColor": "#D9DED8",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58z25kb6",
+      "id": "6",
+      "bbox": [
+        80,
+        160,
+        520,
+        390
+      ],
+      "geometry": "rect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#D9DED8",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gn29gr2p",
+      "id": "7",
+      "bbox": [
+        210,
+        324,
+        260,
+        28
+      ],
+      "geometry": "rect",
+      "text": "手先写真 / CAD図を配置",
+      "textPreview": "手先写真 / CAD図を配置",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "fontSize": 22,
+        "typeface": "Hiragino Sans",
+        "bold": true,
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "手先写真 / CAD図を配置"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "手先写真 / CAD図を配置",
+          "runs": [
+            {
+              "index": 1,
+              "text": "手先写真 / CAD図を配置",
+              "fontSize": 22,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/neloj2t8",
+      "id": "8",
+      "bbox": [
+        288,
+        358,
+        100,
+        24
+      ],
+      "geometry": "rect",
+      "text": "差し替え枠",
+      "textPreview": "差し替え枠",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Hiragino Sans",
+        "alignment": "center"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "差し替え枠"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "差し替え枠",
+          "runs": [
+            {
+              "index": 1,
+              "text": "差し替え枠",
+              "fontSize": 14,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ytsvu9kn",
+      "id": "9",
+      "bbox": [
+        742,
+        238,
+        210,
+        38
+      ],
+      "geometry": "rect",
+      "fillColor": "#17202A",
+      "lineColor": "#17202A",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/83itgfml",
+      "id": "10",
+      "bbox": [
+        704,
+        228,
+        60,
+        60
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#2F6F9F",
+      "lineColor": "#2F6F9F",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobm58z2",
+      "id": "11",
+      "bbox": [
+        930,
+        198,
+        42,
+        150
+      ],
+      "geometry": "rect",
+      "fillColor": "#17202A",
+      "lineColor": "#17202A",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qxs72x4n",
+      "id": "12",
+      "bbox": [
+        962,
+        182,
+        120,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#17202A",
+      "lineColor": "#17202A",
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fil0rqd4",
+      "id": "13",
+      "bbox": [
+        962,
+        342,
+        120,
+        20
+      ],
+      "geometry": "rect",
+      "fillColor": "#17202A",
+      "lineColor": "#17202A",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4fu18jqh",
+      "id": "14",
+      "bbox": [
+        952,
+        258,
+        126,
+        4
+      ],
+      "geometry": "rect",
+      "fillColor": "#D48B31",
+      "lineColor": "#D48B31",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0nuxc3y",
+      "id": "15",
+      "bbox": [
+        704,
+        304,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "wrist roll",
+      "textPreview": "wrist roll",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Menlo",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "wrist roll"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "wrist roll",
+          "runs": [
+            {
+              "index": 1,
+              "text": "wrist roll",
+              "fontSize": 13,
+              "typeface": "Menlo",
+              "color": "#2F6F9F"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m94fu18j",
+      "id": "16",
+      "bbox": [
+        986,
+        376,
+        110,
+        22
+      ],
+      "geometry": "rect",
+      "text": "gripper",
+      "textPreview": "gripper",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "fontSize": 13,
+        "typeface": "Menlo",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "gripper"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "gripper",
+          "runs": [
+            {
+              "index": 1,
+              "text": "gripper",
+              "fontSize": 13,
+              "typeface": "Menlo",
+              "color": "#D48B31"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fu18jqh0",
+      "id": "17",
+      "bbox": [
+        684,
+        448,
+        120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "軽さ優先",
+      "textPreview": "軽さ優先",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Hiragino Sans",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "軽さ優先"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "軽さ優先",
+          "runs": [
+            {
+              "index": 1,
+              "text": "軽さ優先",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans",
+              "color": "#17202A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4r65wjud",
+      "id": "18",
+      "bbox": [
+        808,
+        448,
+        340,
+        36
+      ],
+      "geometry": "rect",
+      "text": "XC330を使う場合でも、指とフレームの質量を抑える。",
+      "textPreview": "XC330を使う場合でも、指とフレームの質量を抑える。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Hiragino Sans",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "XC330を使う場合でも、指とフレームの質量を抑え"
+          },
+          {
+            "index": 2,
+            "text": "る。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "XC330を使う場合でも、指とフレームの質量を抑える。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "XC330を使う場合でも、指とフレームの質量を抑える。",
+              "fontSize": 14,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xc3ylc7u",
+      "id": "19",
+      "bbox": [
+        684,
+        504,
+        120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "対象物",
+      "textPreview": "対象物",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Hiragino Sans",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "対象物"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "対象物",
+          "runs": [
+            {
+              "index": 1,
+              "text": "対象物",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans",
+              "color": "#17202A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4nap4r6",
+      "id": "20",
+      "bbox": [
+        808,
+        504,
+        340,
+        36
+      ],
+      "geometry": "rect",
+      "text": "最初は軽いブロック、スポンジ、空箱などに限定する。",
+      "textPreview": "最初は軽いブロック、スポンジ、空箱などに限定する。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Hiragino Sans",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "最初は軽いブロック、スポンジ、空箱などに限定する"
+          },
+          {
+            "index": 2,
+            "text": "。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "最初は軽いブロック、スポンジ、空箱などに限定する。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "最初は軽いブロック、スポンジ、空箱などに限定する。",
+              "fontSize": 14,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jqh0fep",
+      "id": "21",
+      "bbox": [
+        684,
+        560,
+        120,
+        24
+      ],
+      "geometry": "rect",
+      "text": "設計余地",
+      "textPreview": "設計余地",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "fontSize": 17,
+        "typeface": "Hiragino Sans",
+        "bold": true,
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "設計余地"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "設計余地",
+          "runs": [
+            {
+              "index": 1,
+              "text": "設計余地",
+              "fontSize": 17,
+              "typeface": "Hiragino Sans",
+              "color": "#17202A",
+              "bold": true
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fyxobm58",
+      "id": "22",
+      "bbox": [
+        808,
+        560,
+        340,
+        36
+      ],
+      "geometry": "rect",
+      "text": "指先材質、開閉幅、滑り止めは交換式にして試す。",
+      "textPreview": "指先材質、開閉幅、滑り止めは交換式にして試す。",
+      "resolvedFontSize": 14,
+      "resolvedTextStyle": {
+        "fontSize": 14,
+        "typeface": "Hiragino Sans",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "指先材質、開閉幅、滑り止めは交換式にして試す。"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "指先材質、開閉幅、滑り止めは交換式にして試す。",
+          "runs": [
+            {
+              "index": 1,
+              "text": "指先材質、開閉幅、滑り止めは交換式にして試す。",
+              "fontSize": 14,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qd4vmtwr",
+      "id": "23",
+      "bbox": [
+        54,
+        672,
+        520,
+        20
+      ],
+      "geometry": "rect",
+      "text": "OpenCR + DYNAMIXEL / 3D printed robot arm",
+      "textPreview": "OpenCR + DYNAMIXEL / 3D printed robot arm",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "fontSize": 12,
+        "typeface": "Hiragino Sans",
+        "alignment": "left"
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "OpenCR + DYNAMIXEL / 3D printed robot arm"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "OpenCR + DYNAMIXEL / 3D printed robot arm",
+          "runs": [
+            {
+              "index": 1,
+              "text": "OpenCR + DYNAMIXEL / 3D printed robot arm",
+              "fontSize": 12,
+              "typeface": "Hiragino Sans",
+              "color": "#5E6A71"
+            }
+          ]
+        }
+      ],
+      "fillColor": "rgba(0, 0, 0, 0)",
+      "lineColor": "rgba(0, 0, 0, 0)",
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

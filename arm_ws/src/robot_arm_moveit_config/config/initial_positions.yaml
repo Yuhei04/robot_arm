@@ -1,0 +1,9 @@
+# Default initial positions for robot_arm_fusion's ros2_control fake system
+
+initial_positions:
+  base_yaw_joint: 0
+  elbow_pitch_joint: 0
+  elbow_roll_joint: 0
+  shoulder_pitch_joint: 0
+  upper_arm_roll_joint: 0
+  wrist_pitch_joint: 0
