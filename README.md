@@ -10,13 +10,13 @@
 
 
 
-<video src="docs/media/rviz-demo.mp4" controls width="720"></video>
+<video src="docs/media/rviz_demo.mp4" controls width="720"></video>
 
 
 ### Real Robot
 
 
-<video src="docs/media/real-robot-demo.mp4" controls width="720"></video>
+<video src="docs/media/real_robot_demo.mp4" controls width="720"></video>
 
 
 ## Repository Layout
