@@ -102,7 +102,6 @@ ros2 launch robot_arm_opencr_bridge opencr_moveit.launch.py \
   max_step_deg:=5.0
 ```
 
-最初は `random valid` を使わず、1軸だけ数度動かす小さい目標から確認してください。
 
 ## OpenCR Firmware
 
