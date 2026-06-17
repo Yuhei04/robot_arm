@@ -8,19 +8,11 @@
 
 ### RViz / MoveIt
 
-<video controls width="720">
-  <source src="https://raw.githubusercontent.com/Yuhei04/robot_arm/main/docs/media/rviz-demo.mp4" type="video/mp4">
-</video>
-
-[Open RViz demo video](https://github.com/Yuhei04/robot_arm/raw/main/docs/media/rviz-demo.mp4)
+[![RViz / MoveIt demo](docs/media/rviz-demo-preview.webp)](docs/media/rviz-demo.mp4)
 
 ### Real Robot
 
-<video controls width="720">
-  <source src="https://raw.githubusercontent.com/Yuhei04/robot_arm/main/docs/media/real-robot-demo.mp4" type="video/mp4">
-</video>
-
-[Open real robot demo video](https://github.com/Yuhei04/robot_arm/raw/main/docs/media/real-robot-demo.mp4)
+[![Real robot demo](docs/media/real-robot-demo-preview.webp)](docs/media/real-robot-demo.mp4)
 
 ## Repository Layout
 
