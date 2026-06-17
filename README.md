@@ -8,23 +8,16 @@
 
 ### RViz / MoveIt
 
-動画を追加予定です。
 
-<!--
-後で docs/media/rviz-demo.mp4 を追加したら、このコメントを外す。
 
 <video src="docs/media/rviz-demo.mp4" controls width="720"></video>
--->
+
 
 ### Real Robot
 
-動画を追加予定です。
-
-<!--
-後で docs/media/real-robot-demo.mp4 を追加したら、このコメントを外す。
 
 <video src="docs/media/real-robot-demo.mp4" controls width="720"></video>
--->
+
 
 ## Repository Layout
 
