@@ -10,7 +10,7 @@
 
 
 
-<video src="docs/media/rviz_demo.mp4" controls width="720"></video>
+<video src="docs/media/rviz_domo.mp4" controls width="720"></video>
 
 
 ### Real Robot
